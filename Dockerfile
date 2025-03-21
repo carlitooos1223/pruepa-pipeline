@@ -2,4 +2,4 @@ FROM httpd:2.4
 
 COPY ./html/ /usr/local/apache2/htdocs/
 
-EXPOSE 8081
+EXPOSE 80
